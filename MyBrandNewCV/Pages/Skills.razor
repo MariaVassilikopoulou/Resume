@@ -1,0 +1,185 @@
+﻿@page "/skills"
+@using MyBrandNewCv.Common.Models
+@using MyBrandNewCV.Services.Interfaces
+@using System.Security.Claims
+@inject ISkillService SkillService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<style>
+    .modal {
+        display: block;
+       
+    }
+</style>
+
+<h3>Skills</h3>
+
+<div>
+    <label for="name">Skill Name:</label>
+    <input id="name" @bind="newSkill.Name" />
+
+    <label for="yearsOfExperience">Years of Experience:</label>
+    <input id="yearsOfExperience" @bind="newSkill.YearsOfExperience" />
+
+    <label for="skillLevel">Skill Level:</label>
+    <input id="skillLevel" @bind="newSkill.SkillLevel" />
+
+    <button @onclick="AddSkill">Add Skill</button>
+</div>
+
+@if (skills == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Years of Experience</th>
+            <th>Skill Level</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var skill in skills)
+        {
+            <tr>
+                <td>@skill.Name</td>
+                <td>@skill.YearsOfExperience</td>
+                <td>@skill.SkillLevel</td>
+                <td>
+                    <button @onclick="() => EditSkill(skill)">Edit</button>
+                    <button @onclick="() => DeleteSkill(skill.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+}
+@if (showEditForm)
+    {
+        <div class="modal">
+            <div class="modal-content">
+                <h3>Edit Skill</h3>
+                <label for="editName">Name:</label>
+                <input id="editName" @bind="editedSkill.Name" />
+
+                <label for="editYearsOfExperience">Years of Experience:</label>
+                <input id="editYearsOfExperience" @bind="editedSkill.YearsOfExperience" />
+
+                <label for="editSkillLevel">Skill Level:</label>
+                <input id="editSkillLevel" @bind="editedSkill.SkillLevel" />
+
+                <button @onclick="UpdateSkill">Update Skill</button>
+                <button @onclick="CancelEdit">Cancel</button>
+            </div>
+        </div>
+    }
+  
+
+@code {
+    private List<Skill> skills;
+    private Skill newSkill = new Skill();
+    private Skill editedSkill = new Skill();
+    private bool showEditForm = false;
+
+    private async Task<string> GetUserId()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+        return user.FindFirstValue(ClaimTypes.NameIdentifier);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+           
+            Console.WriteLine("Initializing Skills component...");
+            skills = (await SkillService.GetAllAsync()).ToList();
+            Console.WriteLine($"Number of skills loaded: {skills.Count}");
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error fetching skills: {ex.Message}");
+        }
+    }
+
+    private async Task AddSkill()
+    {
+        try
+        {
+            string userId = await GetUserId();
+            
+            newSkill.UserId = userId;
+            await SkillService.AddAsync(newSkill);
+            skills = (await SkillService.GetAllAsync()).ToList();
+            newSkill = new Skill();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error adding skill: {ex.Message}");
+        }
+    }
+
+    private async Task DeleteSkill(int id)
+    {
+        try
+        {
+           
+            await SkillService.DeleteAsync(id);
+          skills = (await SkillService.GetAllAsync()).ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error deleting skill: {ex.Message}");
+        }
+    }
+
+
+    private void EditSkill(Skill skill)
+    {
+       
+        editedSkill = new Skill
+        {
+            Id = skill.Id,
+            Name = skill.Name,
+            YearsOfExperience = skill.YearsOfExperience,
+            SkillLevel = skill.SkillLevel,
+            UserId = skill.UserId
+        };
+
+        showEditForm = true;
+        Console.WriteLine("showEditForm set to true");
+        Console.WriteLine($"editedSkill: {editedSkill.Name}, {editedSkill.YearsOfExperience}, {editedSkill.SkillLevel}");
+    }
+
+    private async Task UpdateSkill()
+    {
+        try
+        {
+
+            await SkillService.UpdateAsync(editedSkill);
+            
+                skills = (await SkillService.GetAllAsync()).ToList();
+                showEditForm = false;
+            
+            
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error updating skill: {ex.Message}");
+          
+        }
+    }
+
+    private void CancelEdit()
+    {
+        showEditForm = false;
+    }
+
+}
+ 

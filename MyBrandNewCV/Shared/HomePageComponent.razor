@@ -1,0 +1,235 @@
+﻿
+@using Microsoft.AspNetCore.Components.Authorization
+@using MyBrandNewCv.Common.Models
+@using MyBrandNewCV.Services.Interfaces
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject ISkillService SkillService
+@inject IProjectService ProjectService
+
+
+
+
+
+    
+    <section id="hero" class="d-flex align-items-center">
+        <div class="LaptopImage" style="width: 100%; height: 100vh; position: relative;">
+            <img alt="Laptop Image" src="Images/ImageWIthLaptop.jpg" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+        </div>
+
+
+        <div class="container d-flex flex-column align-items-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Maria Vassilikopoulou</h1>
+            <h2>.NET Cloud Developer-student </h2>
+        </div>
+    </section>
+
+
+<section id="about" class="about pb-0">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p></p>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-lg-4">
+            <img src="Images/ProfilImage.jpg" class="img-fluid" alt="Profil image">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>.NET Cloud Developer-student</h3>
+            <p class="fst-italic">
+              .NET Cloud Developer-student på IT Yrkeshögskolan.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  @* <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 1 May 1995</li> *@
+                  <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> vasilikopouloumaria@gmail.com</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Telefon:</strong> +46769176037</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Stad:</strong> Göteborg </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                    <li>
+                        <i class="bi bi-rounded-right"></i>
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        <strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/in/maria-vassilikopoulou-ba0a58223/" target="_blank">Maria Vassilikopoulou</a>
+                    </li>
+
+                    <li>
+                    <i class="bi bi-rounded-right"></i>
+                         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                         <strong>Github:</strong>
+                    <a href="https://github.com/MariaVassilikopoulou?tab=repositories" target="_blank">
+                        pearl.mari (MariaVassilikopoulou)</a>
+                                </li>
+                 @*  <li><i class="bi bi-rounded-right"></i> <strong>PhEmailone:</strong> email@example.com</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li> *@
+                </ul>
+              </div>
+            </div>
+            <p>
+                Driven .NET Cloud Developer-student med passion för molnteknologitrender. Specialiserad inom Microsoft Azure, skalbara system, och databashantering. Skicklig på att skapa användarvänliga gränssnitt med CSS, HTML, och erfaren inom Entity Framework samt .NET Framework. Strävar mot att bli en kunnig .NET Cloud Developer för innovativa mjukvarulösningar
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+   
+    <main id="main">
+
+        <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume mt-0">
+        <div class="container " data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Resume</h2>
+                <p></p>
+            </div>
+               
+            <AuthorizeView>
+                <Authorized>
+                </Authorized>
+                <NotAuthorized>
+                  
+                    <LoginDisplay />
+                          
+                </NotAuthorized>
+            </AuthorizeView>
+                
+            <div class="row mt-2">
+                <div class="col-lg-6">
+                    <h3 class="resume-title">UTBILDNING</h3>
+                    <div class="resume-item pb-0">
+                        <h4>.NET Cloud Developer Student</h4>
+                        <h4>ITHS(Yrkeshögskolan) </h4>
+                        <h5>2023 – pågående</h5>
+                        <p><em>.NET Cloud-utbildning: 2 årundervisning. Fokuserar på skapande av säkra och kraftfulla molntjänster med Microsoft Azure.</em></p>
+                        <h3>Skills</h3>
+                        <p>
+                           
+                        </p>
+                        <CascadingAuthenticationState><AuthorizeView>
+                                <ul>
+                                    
+                                    
+                                    @foreach (var skill in skills)
+                                    {
+                                        <li>@skill.Name: @skill.YearsOfExperience years of experience - Level: @skill.SkillLevel</li>
+                                    }
+                                    
+                                </ul>
+                            </AuthorizeView>
+                        </CascadingAuthenticationState>
+                        <CascadingAuthenticationState><AuthorizeView> <NotAuthorized>
+                                    <p>Loading SKILLS...</p>
+                                </NotAuthorized>
+                            </AuthorizeView>
+                        </CascadingAuthenticationState>
+
+                    </div>
+
+                   
+                </div>
+
+                <div class="col-lg-6">
+                    <h3>Projects</h3>
+                   
+                    <div class="resume-item">
+                        <CascadingAuthenticationState><AuthorizeView>
+                               
+                                <ul> 
+
+                                    @foreach (var project in projects)
+                                    {
+                                        <li>@project.Name: @project.Description</li>
+                                    }
+                                </ul>
+                             
+
+                            </AuthorizeView>
+                        </CascadingAuthenticationState>
+
+                    </div>
+                    <CascadingAuthenticationState><AuthorizeView> <NotAuthorized>
+                                <p>Loading PROJECTS...</p>
+                            </NotAuthorized>
+                        </AuthorizeView>
+                    </CascadingAuthenticationState>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title"></h3>
+                    <div class="resume-item pb-0">
+                        <h4>Göteborg Universitet & Hermonds </h4>
+                        <h5>2020 – 2022</h5>
+                        <p>
+                            <em>
+                                Engelska i klarspråk, Ledarskap och organisation, Kommunikation i arbetslivet,
+                                Programmering 1 (C#), Programmering 2 (C#).
+                            </em>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title"></h3>
+                    <div class="resume-item pb-0">
+                    <h4>University of West Attica: Bachelorprogram </h4>
+                    <h5>2005 – 2010</h5>
+                    <p>
+                        <em>
+                            Ekonomi, Marknadsföring och konsumtion Fokus på konsumentbeteende, global hållbar
+                            konsumtion, och marknadsföring.
+                        </em>
+                    </p>
+                    </div>
+        
+                </div> 
+            </div> 
+
+            </div>
+        
+    </section>        
+    </main>  
+<!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Pearlmary</span></strong>. All Rights Reserved
+            </div>
+          
+        </div>
+    </footer><!-- End  Footer -->
+
+
+@code {
+
+
+    private List<Skill> skills = new List<Skill>();
+    private List<Project> projects= new List<Project>();
+
+ 
+
+        protected override async Task OnInitializedAsync()
+        {
+            try
+            {
+               
+                skills = (await SkillService.GetAllAsync()).ToList();
+                projects = (await ProjectService.GetAllAsync()).ToList();
+
+               
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error fetching data: {ex.Message}");
+            }
+        }
+       
+    }
+
+

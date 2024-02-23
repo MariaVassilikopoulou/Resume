@@ -1,0 +1,166 @@
+﻿@page "/projects"
+@using MyBrandNewCv.Common.Models;
+@using System.Security.Claims
+@using MyBrandNewCV.Services
+@using MyBrandNewCV.Services.Interfaces
+@inject IProjectService ProjectService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+
+<style>
+    .modal {
+        display: block;
+       
+    }
+</style>
+
+<h3>Projects</h3>
+
+<div>
+    <label for="name">Project Name:</label>
+    <input id="name" @bind="newProject.Name"/>
+    <label for="description">´Project Description:</label>
+    <input id="description" @bind="newProject.Description" />
+    <button @onclick="AddProject">Add Project</button>
+   
+</div>
+@if (projects == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Project Name</th>
+            <th>Project Description</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var project in projects)
+        {
+            <tr>
+                <td>@project.Name</td>
+                <td>@project.Description</td>
+                <td>
+                    <button @onclick="() => EditProject(project)">Edit</button>
+                    <button @onclick="() => DeleteProject(project.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@if (showEditForm)
+{
+    <div class="modal">
+        <div class="modal-content">
+            <h3>Edit Project</h3>
+            <label for="editProjectName">Project Name:</label>
+            <input id="editProjectName" @bind="editedProject.Name"/>
+            <label for="editProjectDescription">Project Description:</label>
+            <input id="editProjectDescription" @bind="editedProject.Description" />
+            <button @onclick="UpdateProject">Update Project</button>
+            <button @onclick="CancelEdit">Cancel</button>
+
+        </div>
+    </div>
+}
+
+
+@code {
+    private List<Project> projects;
+    private Project newProject = new Project();
+    private Project editedProject = new Project();
+    private bool showEditForm = false;
+
+
+
+    private async Task<string> GetUserId()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+        return user.FindFirstValue(ClaimTypes.NameIdentifier);
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+             projects = (await ProjectService.GetAllAsync()).ToList();
+
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error fetching skills: {ex.Message}");
+        }
+
+    }
+
+    private async Task AddProject()
+    {
+        try
+        {
+            string userId = await GetUserId();
+            newProject.UserId = userId;
+            await ProjectService.AddAsync(newProject);
+            projects = (await ProjectService.GetAllAsync()).ToList();
+            newProject = new Project();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error adding project: {ex.Message}");
+        }
+    }
+
+    private void EditProject(Project project)
+    {
+        editedProject = new Project
+        {
+            Id = project.Id,
+            Name = project.Name,
+            Description = project.Description,
+            UserId = project.UserId
+        };
+        showEditForm = true;
+        Console.WriteLine("showEditForm set to true");
+        Console.WriteLine($"editedProject: {editedProject.Name}, {editedProject.Description}");
+    }
+
+    private async Task DeleteProject(int id)
+    {
+        try
+        {
+            await ProjectService.DeleteAsync(id);
+            projects = (await ProjectService.GetAllAsync()).ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error deleting project: {ex.Message}");
+        }
+    }
+
+    private async Task UpdateProject()
+    {
+        try
+        {
+            await ProjectService.UpdateAsync(editedProject);
+            projects = (await ProjectService.GetAllAsync()).ToList();
+            showEditForm = false;
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error updating project: {ex.Message}");
+
+        }
+    }
+    private void CancelEdit()
+    {
+        showEditForm = false;
+    }
+
+}
+

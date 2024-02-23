@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\shared\\homepagecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\shared\\homepagecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F923243-AAFD-449F-80CD-5721A96F9528}|MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv.dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F923243-AAFD-449F-80CD-5721A96F9528}|MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj|solutionrelative:mybrandnewcv.dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F923243-AAFD-449F-80CD-5721A96F9528}|MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv.dataaccess\\mybrandnewcv.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F923243-AAFD-449F-80CD-5721A96F9528}|MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj|solutionrelative:mybrandnewcv.dataaccess\\mybrandnewcv.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|solutionrelative:mybrandnewcv.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\pages\\skills.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\pages\\skills.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\properties\\servicedependencies.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\properties\\servicedependencies.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D2737A4-7E38-4C84-850F-497E249845CD}|MyBrandNewCV\\MyBrandNewCV.csproj|solutionrelative:mybrandnewcv\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv.api\\properties\\servicedependencies.mariavassresume - web deploy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|solutionrelative:mybrandnewcv.api\\properties\\servicedependencies.mariavassresume - web deploy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|solutionrelative:mybrandnewcv.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|c:\\users\\vasil\\desktop\\cvlabb3\\mybrandnewcv\\mybrandnewcv.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E3EF7E6-8428-4B81-B5AC-D0626BB0A4E2}|MyBrandNewCV.Api\\MyBrandNewCV.Api.csproj|solutionrelative:mybrandnewcv.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MyBrandNewCV\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-23T10:13:06.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyBrandNewCV.DataAccess",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj",
+              "RelativeDocumentMoniker": "MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj",
+              "RelativeToolTip": "MyBrandNewCV.DataAccess\\MyBrandNewCV.DataAccess.csproj",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-23T09:42:04.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Program.cs",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Program.cs",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Program.cs",
+              "RelativeToolTip": "MyBrandNewCV\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwC8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T09:41:57.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\appsettings.json",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\appsettings.json",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\appsettings.json",
+              "RelativeToolTip": "MyBrandNewCV\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T09:41:46.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePageComponent.razor",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Shared\\HomePageComponent.razor",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Shared\\HomePageComponent.razor",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Shared\\HomePageComponent.razor*",
+              "RelativeToolTip": "MyBrandNewCV\\Shared\\HomePageComponent.razor*",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAUwA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T08:59:52.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Projects.razor",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Pages\\Projects.razor",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Pages\\Projects.razor",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Pages\\Projects.razor",
+              "RelativeToolTip": "MyBrandNewCV\\Pages\\Projects.razor",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAwwJUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T08:59:29.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "MyBrandNewCV\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T08:58:34.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Pages\\Index.razor",
+              "RelativeToolTip": "MyBrandNewCV\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T08:59:16.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\App.razor",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\App.razor",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\App.razor",
+              "RelativeToolTip": "MyBrandNewCV\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T08:59:12.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Skills.razor",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Pages\\Skills.razor",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Pages\\Skills.razor",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Pages\\Skills.razor",
+              "RelativeToolTip": "MyBrandNewCV\\Pages\\Skills.razor",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAiwLkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T08:58:00.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "serviceDependencies.local.json",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Properties\\serviceDependencies.local.json",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Properties\\serviceDependencies.local.json",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Properties\\serviceDependencies.local.json",
+              "RelativeToolTip": "MyBrandNewCV\\Properties\\serviceDependencies.local.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T08:12:12.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "MyBrandNewCV\\Properties\\serviceDependencies.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T08:12:10.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyBrandNewCV\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyBrandNewCV\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T08:12:08.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.DataAccess\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MyBrandNewCV.DataAccess\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.DataAccess\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MyBrandNewCV.DataAccess\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T08:09:24.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "MyBrandNewCV.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\appsettings.json",
+              "RelativeToolTip": "MyBrandNewCV.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T08:08:24.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyBrandNewCV.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyBrandNewCV.Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T08:08:52.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "serviceDependencies.MariaVassResume - Web Deploy.json",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\Properties\\serviceDependencies.MariaVassResume - Web Deploy.json",
+              "RelativeDocumentMoniker": "MyBrandNewCV.Api\\Properties\\serviceDependencies.MariaVassResume - Web Deploy.json",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\Properties\\serviceDependencies.MariaVassResume - Web Deploy.json",
+              "RelativeToolTip": "MyBrandNewCV.Api\\Properties\\serviceDependencies.MariaVassResume - Web Deploy.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T08:08:55.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\Program.cs",
+              "RelativeDocumentMoniker": "MyBrandNewCV.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\vasil\\Desktop\\CVLABB3\\MyBrandNewCV\\MyBrandNewCV.Api\\Program.cs",
+              "RelativeToolTip": "MyBrandNewCV.Api\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T08:09:16.403Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

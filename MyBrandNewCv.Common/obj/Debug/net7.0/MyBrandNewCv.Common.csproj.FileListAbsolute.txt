@@ -1,0 +1,13 @@
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\bin\Debug\net7.0\MyBrandNewCv.Common.deps.json
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\bin\Debug\net7.0\MyBrandNewCv.Common.dll
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\bin\Debug\net7.0\MyBrandNewCv.Common.pdb
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.AssemblyInfoInputs.cache
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.AssemblyInfo.cs
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.csproj.CoreCompileInputs.cache
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.sourcelink.json
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.dll
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\refint\MyBrandNewCv.Common.dll
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.pdb
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\ref\MyBrandNewCv.Common.dll
+C:\Users\vasil\Desktop\CVLABB3\MyBrandNewCV\MyBrandNewCv.Common\obj\Debug\net7.0\MyBrandNewCv.Common.csproj.AssemblyReference.cache
